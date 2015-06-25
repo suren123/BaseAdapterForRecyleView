@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.suren.baseadapterforrecyleview.adapter.BaseAdapter;
+import com.suren.baseadapter.BaseAdapter;
 import com.suren.baseadapterforrecyleview.adapter.StringAdapter;
 import com.suren.baseadapterforrecyleview.divider.ListDividerView;
 

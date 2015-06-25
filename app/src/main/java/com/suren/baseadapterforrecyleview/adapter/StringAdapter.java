@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.suren.baseadapter.BaseAdapter;
 import com.suren.baseadapterforrecyleview.R;
 
 import java.util.List;

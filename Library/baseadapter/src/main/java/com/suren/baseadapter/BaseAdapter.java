@@ -1,4 +1,4 @@
-package com.suren.baseadapterforrecyleview.adapter;
+package com.suren.baseadapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
