@@ -1,9 +1,11 @@
 # BaseAdapterForRecyleView
+
 A Simple Base Adapter for RecyleView on Android
 
-------
+## How to use
 
-## Usage
+- step 1
+
 ``` java
 public class StringAdapter extends BaseAdapter<String, StringAdapter.ViewHolder> {
 
@@ -50,8 +52,8 @@ public class StringAdapter extends BaseAdapter<String, StringAdapter.ViewHolder>
     }
 }
 ```
+- step 2
 
-## In Activity 
 ``` java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,3 +93,5 @@ public class StringAdapter extends BaseAdapter<String, StringAdapter.ViewHolder>
         rv_items.setAdapter(mAdapter);
     }
 ```
+
+- Enjoy
