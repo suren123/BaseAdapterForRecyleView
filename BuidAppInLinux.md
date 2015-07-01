@@ -1,7 +1,9 @@
 # 如何在Linux上构建 Android 工程
 
 - 在Linux上安装Android SDK
+
 http://developer.android.com/sdk/index.html#Other
+
 选择Linux版本并解压到指定目录
 > tar zxvf android-sdk_r24.3.3-linux.tgz
 
@@ -17,8 +19,11 @@ sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686
 Fedora 20 64bit with 64bit Android SDK
 sudo yum install glibc zlib libstdc++ ncurses-libs mesa-libGL-devel adb
 ```
+
 参考:
+
 http://blog.csdn.net/catoop/article/details/7618099
+
 http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine
 
 - 更新SDK
@@ -30,12 +35,17 @@ http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine
 
 参考:
 http://blog.csdn.net/hello0370/article/details/42675999
-http://stackoverflow.com/questions/4681697/is-there-a-way-to-automate-the-android-sdk-installation/4682241#4682241
+
+http://stackoverflow.com/questions/4681697/is-there-a-way-to-automate-the-
+android-sdk-installation/4682241#4682241
+
 http://blog.csdn.net/csusunxgg/article/details/9703789
 
 - 在Linux 上安装Gradle
 下载最新的程序包：http://www.gradle.org/downloads
+
 到这里下载最新的程序包：http://www.gradle.org/downloads
+
 解压，加入解压路径(可以自已设定)：/opt/gradle/gradle-1.4
 
 在/etc/profile 文件的最后加入内容
