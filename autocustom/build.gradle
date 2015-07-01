@@ -1,0 +1,27 @@
+import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
+
+apply plugin: 'java'
+
+dependencies {
+
+    tasks.withType(Compile) {
+        options.encoding = "UTF-8"
+    }
+
+    apply plugin: 'application'
+    apply plugin: 'java'
+
+    mainClassName = "com.test.Main"
+
+    // edit output direction
+    def outputDir = "../textprocessing/text-gen"
+    def inputDirs = "../app"
+
+    dependencies {
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+    }
+
+    run {
+        args inputDirs
+    }
+}

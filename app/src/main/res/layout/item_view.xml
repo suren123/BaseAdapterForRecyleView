@@ -10,11 +10,11 @@
 
     <ImageView
         android:id="@+id/iv_head"
-        android:layout_centerVertical="true"
-        android:layout_width="wrap_content"
-        android:src="@mipmap/ic_logo"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginRight="15dip"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/bg_item"
         android:layout_alignParentLeft="true"/>
 
     <LinearLayout

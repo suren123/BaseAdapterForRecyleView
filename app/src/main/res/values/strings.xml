@@ -1,6 +1,7 @@
-<resources>
-    <string name="app_name">BaseAdapterForRecyleView</string>
+﻿<resources>
+    <string name="app_name">RecyleView</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="aidl_test">aidl测试</string>
 </resources>

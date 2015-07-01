@@ -1,1 +1,1 @@
-include ':app', ':Library:baseadapter'
+include ':app', ':Library:baseadapter', ':autocustom'

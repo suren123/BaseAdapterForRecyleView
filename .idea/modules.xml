@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BaseAdapterForRecyleView.iml" filepath="$PROJECT_DIR$/BaseAdapterForRecyleView.iml" />
       <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autocustom/autocustom.iml" filepath="$PROJECT_DIR$/autocustom/autocustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/Library/baseadapter/baseadapter.iml" filepath="$PROJECT_DIR$/Library/baseadapter/baseadapter.iml" />
     </modules>
   </component>
